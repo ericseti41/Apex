@@ -300,8 +300,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6617783693"
-KEY="6751589620:AAHwjP6dzZhuqeyUOdYFc6742Q1YUVF1EjM"
+CHATID="-646429068"
+KEY="6840196179:AAEaQx76qJ-2Z3aowop53K2omFKYdNd5IPg"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -319,7 +319,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <b> ðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©IRULL - TUNNELðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©</b>
 <code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6283133813408"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6282281113578"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
