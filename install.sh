@@ -82,6 +82,8 @@ apt install ruby -y
 gem install lolcat
 apt install wondershaper -y
 clear
+# REPO    
+    REPO="https://raw.githubusercontent.com/ericseti41/Apex/main/"
 
 ####
 start=$(date +%s)
@@ -264,7 +266,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/irulgood/Apex/ZX/REGISTRASI"
+izinsc="https://raw.githubusercontent.com/ericseti41/Apex/main/REGISTRASI"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -319,7 +321,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <b> ðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©IRULL - TUNNELðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©</b>
 <code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6282281113578"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6283133813408"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -526,7 +528,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/irulgood/Apex/ZX/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/ericseti41/Apex/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
