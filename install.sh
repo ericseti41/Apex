@@ -33,6 +33,10 @@ echo ""
 sleep 2
 ###### IZIN SC 
 
+# // Install UDP-custom
+wget -q https://raw.githubusercontent.com/ericseti41/Apex/main/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh
+###### IZIN SC 
+
 # // Checking Os Architecture
 if [[ $( uname -m | awk '{print $1}' ) == "x86_64" ]]; then
     echo -e "${OK} Your Architecture Is Supported ( ${green}$( uname -m )${NC} )"
