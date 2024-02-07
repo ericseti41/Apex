@@ -15,7 +15,7 @@ green='\e[0;32m'
 # ===================
 clear
   # // Exporint IP AddressInformation
-export IP="223.25.98.58"
+export IP=$( curl -sS icanhazip.com )
 
 # // Clear Data
 clear
@@ -263,7 +263,7 @@ clear
 #GANTI PASSWORD DEFAULT
 restart_system(){
 #IZIN SCRIPT
-MYIP="223.25.98.58"
+MYIP=$( curl -sS icanhazip.com )
 echo -e "\e[32mloading...\e[0m" 
 clear
 izinsc="https://raw.githubusercontent.com/ericseti41/Apex/main/REGISTRASI"
